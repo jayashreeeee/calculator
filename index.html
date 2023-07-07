@@ -46,4 +46,27 @@
       </div>
     </div>
   </body>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDaIzscjme_RSVTeOsb8ZQZrHR-hQ3iiJc",
+      authDomain: "calculator-b7338.firebaseapp.com",
+      projectId: "calculator-b7338",
+      storageBucket: "calculator-b7338.appspot.com",
+      messagingSenderId: "671387654460",
+      appId: "1:671387654460:web:37b946aada3f3e57dfa639",
+      measurementId: "G-TDSMPC2813"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </html>
